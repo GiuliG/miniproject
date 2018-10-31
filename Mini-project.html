@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Investing for your future</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="Investment.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Investment Calculator</h1>
+            <p class="header-block">See how much your investment could be worth in 30 years.<br>
+            Select a risk level, enter your initial amount and see how much your investment grows. </p>
+        </div>
+    </header>
+
+    <section id="projected-value" class="container">
+        <h2>Portfolio Value in 30 Years</h2>
+    </section>
+
+    <section id="select-var-section" class="container">
+        <form id="select-var"> 
+            <p>Which investor are you? Choose a category.</p> 
+            <div class="choose-var">
+               <div>
+                    <input class="risk" type="radio" name="chooseone" value="cautious">
+                    <label for="cautious"> Cautious</label> 
+                    <img src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRMTVbx4kMBbe1yLtcUuy6mX9P-C2-f9G6tbPfHIS2HzT6pjPxRO2kpAnX7q7mp5SVQfGiHLX0o-oGH/pubchart?oid=1417692210&format=image" >
+               </div>
+                
+               <div>
+                    <input class="risk" type="radio" name="chooseone" value="balanced">
+                    <label for="balanced"> Balanced</label>
+                    <img src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRMTVbx4kMBbe1yLtcUuy6mX9P-C2-f9G6tbPfHIS2HzT6pjPxRO2kpAnX7q7mp5SVQfGiHLX0o-oGH/pubchart?oid=1417692210&format=image">
+
+                </div>
+                
+                <div>
+                    <input class="risk" type="radio" name="chooseone" value="adventurous">
+                    <label for="adventurous">Adventurous</label>
+                    <img src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRMTVbx4kMBbe1yLtcUuy6mX9P-C2-f9G6tbPfHIS2HzT6pjPxRO2kpAnX7q7mp5SVQfGiHLX0o-oGH/pubchart?oid=1316682472&format=image">
+                </div>
+                
+           
+            </div>
+        </form>
+    </section>
+
+    <section id="#theImage" class="container">
+           <img>
+    </section>
+
+
+    <section id="input-user" class="start-amount">
+        <div class="container"> 
+        <p>Your starting amount: </p>
+       
+        
+        <span class="currencyinput">€ <input id="starting-amount" name="currency" value="500" min="0" max="10000" step="any" data-number-to-fixed="2" data-number-stepfactor="100" class="initial-investment" required/></span>
+        
+        
+        <p>min: € 500 - max: € 250,000 </p>
+        </div>
+        <div class="container"> 
+        <p>Your monthly contribution (optional): </p>
+        
+        <span class="currencyinput">€ <input id="monthly-plan" name="currency" value="0" min="0" max="10000" step="any" id="mon-amount" class="monthly-plan"/></span>
+        <p>min: € 0 - max: € 2,500 </p>
+        </div>
+        
+        
+    </section>
+
+    <button id="submit-section" class="container">Submit</button>
+
+
+
+    
+
+    <section id="table" class="container future">
+       
+           <h2 id="your-final"><strong>Your Investment in the future</strong></h2>
+                    <div class="table">
+                        <div class="final-table">
+                        <p>Years</p>
+                        </div>
+                        <div class="final-table">
+                        <p>Your Portfolio</p>
+                       
+                        </div>
+                       
+                        <div class="final-table">
+                            <p>10 yrs</p>
+                        </div>
+                        <div class="final-table">
+                            <p id="ten-years">€--</p>
+                        </div>
+                        
+                        <div class="final-table">
+                        <p>20 yrs</p>
+                        </div>
+                        <div class="final-table">
+                        <p id="twenty-years">€--</p>
+                        </div>
+                        <div class="final-table">
+                        <p>30 yrs</p>
+                        </div>
+                        <div class="final-table">
+                        <p id="thirty-years">€--</p>
+                        </div>
+                    </div>
+        
+    </section>
+
+    <section id="legend" >
+        <div class="container">
+            <p>*Assumptions: we are investing in ETFs, with an average fee of 0.25% p.a. Our portfolios have a fixed allocation and the investment management fees are of c. 0.75% p.a. </p>
+            <p>powered by JS!</p>
+        </div>
+    </section>
+
+   
+   
+    <script src="MiniProject.js"></script>
+</body>
+</html>

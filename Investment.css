@@ -1,0 +1,272 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #2EB053;
+    padding: 50px;
+    width: 100%;
+
+  }
+  
+  table {
+      text-align: center;
+  }
+  
+  /* ---- typography ---- */
+  
+  body {
+    text-align: center;
+    
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #424242;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+}
+  
+  h3 {
+    color: #424242;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 18px;
+    color: #1c1c1c;
+    line-height: 28px;
+    letter-spacing: normal;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+  }
+
+  
+  label {
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 20px 10px;
+    cursor: default;
+    text-align: center;
+  }
+  
+  input {
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 10px 0px;
+    cursor: default;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  span {
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 10px 10px;
+    cursor: default;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  
+
+  button {
+    color: #FFF;
+    background-color: #2fb153;
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 20px 0;
+    border-radius: 10px 4px;
+
+  }
+
+  li {
+  list-style-type: none;
+}
+
+  @media (min-width: 786px) {
+    .container {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .header-block div {
+            width: 50%;
+        }
+
+    .choose-var div, input, label {
+            width: 33%;
+    }
+    .choose-var img {
+        width: 50%;
+}
+    
+}
+
+  /* ---- layout ---- */
+  
+  #site-header {
+    padding: 30px 0;
+    color: white;
+    background: #111;
+  }
+  
+  #site-footer {
+    color: white;
+    padding: 60px 0;
+    background: #111;
+  }
+  
+  #site-main {
+    margin-bottom: 60px;
+  }
+  
+  .container {
+    margin: 0 20px;
+  }
+  
+
+  
+  .choose-var{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+  }
+
+
+ 
+  #select-var p {
+      padding: 20px 0px;
+  }
+
+  
+  
+  
+  
+  /* ---- components ---- */
+  
+.start-amount {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+
+}
+
+.table {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    width: 100%;
+
+}
+
+.table div {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #f5f5f5;
+}
+
+.final-table {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.final-table div {
+    width: 40%;
+    padding: 10px;
+
+}
+.future{
+    padding: 20px 20px;
+
+}
+.table p{
+    padding: 20px;
+    text-align: left;
+}
+
+.start-amount div{
+    text-align: left;
+    padding: 20px 20px;
+    width: 50%:
+}
+
+.start-amount p{
+    text-align: left;
+    padding-left: 5px;
+}
+
+
+.header-block {
+    color: #ffffff;
+
+}
+
+.container {
+    margin: 0 20px;
+  }
+  
+#legend{
+    background-color:#f5f5f5;
+    padding: 30px 0;
+}
+#legend p{
+    font-size: 12px;
+}
+
+
+  
+#input-user {
+      background-color: #f5f5f5;
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+  /* ---- section ---- */
+  
+  section.testimonials {
+    // ...
+  }
+  
+  section.testimonials .button {
+    margin-bottom: 10px;
+  }
+
+
+
+  
